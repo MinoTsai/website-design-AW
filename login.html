@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </meta>
+
+    <script src="assets/js/head.js"></script>
+</head>
+
+<style>
+        
+</style>
+
+<body>
+    <div id="container">
+
+        <header>
+        <script src="assets/js/header.js"></script>
+        </header>
+
+
+        <!-- 內容 start -->
+        <section class="main bg-gradient-blue">
+            <div class="content ">
+                <div class="login-title text-center mt-5">會員登入/註冊</div>
+                <div class="d-flex justify-content-center">
+                    <div class="login-box">
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <button class="nav-link col active p-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">登&emsp;入</button>
+                                <button class="nav-link col p-3" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">註&emsp;冊</button>
+                            </div>
+                        </nav>
+                        <!-- tab-content start -->
+                        <!-- 登入資料 sratr -->
+                        <div class="tab-content login-tab p-4" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="mb-3 input-box">
+                                    <label for="recName" class="form-label">帳號（E-mail）</label>
+                                    <input type="text" class="form-control" id="account" placeholder="user001@gmail.com">
+                                </div>
+                                <div class="mb-3 input-box">
+                                    <label for="recPassword" class="form-label">密碼</label>
+                                    <input type="password" class="form-control" id="password" placeholder="********">
+                                </div>
+                                <a href="meb_editor.html" class="d-flex justify-content-center align-items-center py-3 mt-4 btn-blue btn-normal">登入</a>
+                                <a href="forget_pw.html" class="d-flex justify-content-center pt-3 fs-14">忘記密碼</a>
+                            </div>
+                            <!-- 登入資料 end -->
+                            <!-- 註冊資料 start -->
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <div class="mb-3 input-box">
+                                    <label for="recName" class="form-label">姓名</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="mb-3 input-box">
+                                    <label for="recEmail" class="form-label">E-mail（登入帳號）</label>
+                                    <input type="text" class="form-control" id="mail">
+                                </div>
+                                <div class="mb-3 input-box">
+                                    <label for="recPassword" class="form-label">密碼</label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+                                <div class="mb-3 input-box">
+                                    <label for="recRePassword" class="form-label">再輸入一次密碼</label>
+                                    <input type="password" class="form-control" id="repassword">
+                                </div>
+                                <a href="login.html" class="d-flex justify-content-center align-items-center py-3 mt-4 btn-blue btn-normal">註冊會員</a>
+                            </div>
+                            <!-- 註冊資料 end -->
+                        </div>
+                        <!-- tab-content end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+        <script src="assets/js/footer.js"></script>
+        </footer>
+    </div>
+
+     <!--引用jQuery-->
+     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!-- boostrap5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <!-- data tables -->
+    <script src="assets/datatables/datatables.min.js"></script>
+
+    <!-- slick start -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
